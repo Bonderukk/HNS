@@ -1,0 +1,53 @@
+SVM   {'kernel': 'rbf'}
+MLP   {'hidden': (256, 128, 64), 'dropout': 0.3}
+CNN   {'channels': (16, 32), 'dropout': 0.0, 'epochs': 100}
+LSTM  {'hidden': 128, 'layers': 2, 'dropout': 0.0, 'epochs': 80}
+
+Uloha 3: metriky cez 5 opakovani (v %)
+                   uspesnost            presnost            senzitivita     
+model  data      min priem.    max    min priem.    max    min priem.    max
+SVM    val      92.7   96.2  100.0   92.9   96.5  100.0   92.7   96.2  100.0
+SVM    test     95.8   97.5   99.0   96.2   97.8   99.0   95.8   97.5   99.0
+MLP    val      90.6   95.8   99.0   91.9   96.4   99.0   90.6   95.8   99.0
+MLP    test     91.7   94.6   96.9   93.5   95.4   97.0   91.7   94.6   96.9
+CNN    val      95.8   99.0  100.0   96.4   99.1  100.0   95.8   99.0  100.0
+CNN    test     89.6   94.0   99.0   91.8   95.0   99.0   89.6   94.0   99.0
+LSTM   val      97.9   98.5  100.0   98.0   98.6  100.0   97.9   98.5  100.0
+LSTM   test     94.8   96.7   99.0   95.5   97.1   99.0   94.8   96.7   99.0
+(val je nadhodnotena - podla nej sa vyberala struktura aj epocha; nezavisly odhad je test)
+
+SVM (riadky = skutocny teren, stlpce = predikcia)
+           beton   trava    strk  piesok  dlazba  tartan
+beton         80       0       0       0       0       0
+trava          0      77       1       2       0       0
+strk           0       3      76       0       0       1
+piesok         0       2       0      78       0       0
+dlazba         2       0       0       0      78       0
+tartan         1       0       0       0       0      79
+
+MLP (riadky = skutocny teren, stlpce = predikcia)
+           beton   trava    strk  piesok  dlazba  tartan
+beton         79       0       0       0       1       0
+trava          0      77       2       1       0       0
+strk           0       7      73       0       0       0
+piesok         0       4       0      76       0       0
+dlazba         9       0       0       0      71       0
+tartan         2       0       0       0       0      78
+
+CNN (riadky = skutocny teren, stlpce = predikcia)
+           beton   trava    strk  piesok  dlazba  tartan
+beton         77       0       0       0       3       0
+trava          0      73       4       3       0       0
+strk           0       8      72       0       0       0
+piesok         0       2       0      78       0       0
+dlazba         3       0       0       0      77       0
+tartan         0       0       0       0       6      74
+
+LSTM (riadky = skutocny teren, stlpce = predikcia)
+           beton   trava    strk  piesok  dlazba  tartan
+beton         78       0       0       0       1       1
+trava          0      79       1       0       0       0
+strk           0       0      80       0       0       0
+piesok         0       1       0      79       0       0
+dlazba         4       0       0       0      76       0
+tartan         8       0       0       0       0      72

@@ -1,0 +1,93 @@
+
+SVM: porovnanie jadier
+model             train acc         val acc        test acc
+-----------------------------------------------------------
+linear         100.0 +- 0.0     94.2 +- 1.6     94.6 +- 3.1
+poly st.3      100.0 +- 0.0     95.8 +- 4.2     97.1 +- 1.6
+rbf            100.0 +- 0.0     96.2 +- 3.6     97.5 +- 1.6
+val acc po rozdeleniach dat:
+linear        93.8   92.7   95.8   94.8   93.8
+poly st.3     91.7   95.8  100.0   94.8   96.9
+rbf           92.7   95.8  100.0   95.8   96.9
+-> vybrane podla validacie: rbf
+
+MLP: porovnanie struktur
+model                           train acc         val acc        test acc
+-------------------------------------------------------------------------
+64 (3,910 vah)                97.5 +- 2.9     93.3 +- 3.1     94.2 +- 3.6
+128-64 (15,686 vah)           98.3 +- 4.2     94.4 +- 4.7     92.7 +- 6.2
+256-128-64 (55,622 vah)       99.9 +- 0.2     95.8 +- 4.2     94.6 +- 2.6
+val acc po rozdeleniach dat:
+64 (3,910 vah)              91.7   93.8   96.9   93.8   90.6
+128-64 (15,686 vah)         89.6   93.8   99.0   94.8   94.8
+256-128-64 (55,622 vah)     90.6   96.9   99.0   94.8   97.9
+-> vybrane podla validacie: 256-128-64 (55,622 vah)
+
+MLP 256-128-64: vplyv dropoutu
+model                            train acc         val acc        test acc
+--------------------------------------------------------------------------
+dropout=0.0 (55,622 vah)       99.7 +- 0.5     95.2 +- 5.2     94.6 +- 3.1
+dropout=0.3 (55,622 vah)       99.9 +- 0.2     95.8 +- 4.2     94.6 +- 2.6
+dropout=0.5 (55,622 vah)       99.2 +- 0.6     95.2 +- 4.2     94.8 +- 4.2
+val acc po rozdeleniach dat:
+dropout=0.0 (55,622 vah)     89.6   97.9  100.0   93.8   94.8
+dropout=0.3 (55,622 vah)     90.6   96.9   99.0   94.8   97.9
+dropout=0.5 (55,622 vah)     90.6   95.8   99.0   94.8   95.8
+-> vybrane podla validacie: dropout=0.3 (55,622 vah)
+
+CNN: porovnanie struktur
+model                               train acc         val acc        test acc
+-----------------------------------------------------------------------------
+16-32 (4,598 vah)                 98.4 +- 2.6     97.3 +- 2.6     94.6 +- 4.2
+32-64-128 (74,470 vah)            99.0 +- 1.7     96.2 +- 4.2     95.4 +- 3.6
+32-64-128-256 (305,382 vah)       99.7 +- 0.6     96.9 +- 4.2     95.6 +- 3.1
+val acc po rozdeleniach dat:
+16-32 (4,598 vah)               96.9   96.9  100.0   97.9   94.8
+32-64-128 (74,470 vah)          96.9  100.0   99.0   91.7   93.8
+32-64-128-256 (305,382 vah)     96.9  100.0  100.0   95.8   91.7
+-> vybrane podla validacie: 16-32 (4,598 vah)
+
+CNN 16-32: vplyv dropoutu
+model                           train acc         val acc        test acc
+-------------------------------------------------------------------------
+dropout=0.0 (4,598 vah)       98.4 +- 1.7     98.5 +- 2.1     95.0 +- 3.6
+dropout=0.3 (4,598 vah)       98.4 +- 2.6     97.3 +- 2.6     94.6 +- 4.2
+dropout=0.5 (4,598 vah)       97.3 +- 4.0     95.4 +- 2.6     93.1 +- 5.2
+val acc po rozdeleniach dat:
+dropout=0.0 (4,598 vah)     97.9   99.0  100.0  100.0   95.8
+dropout=0.3 (4,598 vah)     96.9   96.9  100.0   97.9   94.8
+dropout=0.5 (4,598 vah)     95.8   94.8   97.9   95.8   92.7
+-> vybrane podla validacie: dropout=0.0 (4,598 vah)
+
+LSTM: porovnanie struktur
+model                       train acc         val acc        test acc
+---------------------------------------------------------------------
+64 (18,822 vah)           86.5 +- 8.6     91.0 +- 6.2     85.8 +- 5.7
+128 (70,406 vah)          91.8 +- 9.1     92.7 +- 5.2     90.2 +- 4.7
+2x128 (202,502 vah)       98.1 +- 2.2     97.7 +- 2.1     92.9 +- 4.2
+val acc po rozdeleniach dat:
+64 (18,822 vah)         83.3   95.8   95.8   89.6   90.6
+128 (70,406 vah)        96.9   97.9   91.7   87.5   89.6
+2x128 (202,502 vah)     96.9  100.0   99.0   95.8   96.9
+-> vybrane podla validacie: 2x128 (202,502 vah)
+
+LSTM 2x128: vplyv dropoutu
+model                             train acc         val acc        test acc
+---------------------------------------------------------------------------
+dropout=0.0 (202,502 vah)       97.0 +- 4.1     98.3 +- 1.0     95.0 +- 3.6
+dropout=0.3 (202,502 vah)       98.1 +- 2.2     97.7 +- 2.1     92.9 +- 4.2
+dropout=0.5 (202,502 vah)       98.6 +- 1.1     98.1 +- 0.5     94.6 +- 3.1
+val acc po rozdeleniach dat:
+dropout=0.0 (202,502 vah)     97.9  100.0   97.9   97.9   97.9
+dropout=0.3 (202,502 vah)     96.9  100.0   99.0   95.8   96.9
+dropout=0.5 (202,502 vah)     99.0   97.9   97.9   97.9   97.9
+-> vybrane podla validacie: dropout=0.0 (202,502 vah)
+
+(tabulky v %, priemer z opakovani +- polovica rozpatia min-max)
+
+Vybrane konfiguracie pre ulohu 3:
+  SVM   {'kernel': 'rbf'}
+  MLP   {'hidden': (256, 128, 64), 'dropout': 0.3}
+  CNN   {'channels': (16, 32), 'dropout': 0.0}
+  LSTM  {'hidden': 128, 'layers': 2, 'dropout': 0.0}
+EXIT=0
