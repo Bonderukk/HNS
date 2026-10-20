@@ -1,0 +1,1 @@
+source /home/spear/Documents/HNS/projekt1/venv/bin/activate

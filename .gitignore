@@ -1,2 +1,6 @@
 __pycache__/
 *.npz
+cache/
+venv/
+runs/
+runs_old/

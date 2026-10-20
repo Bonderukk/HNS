@@ -1,0 +1,404 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M1_ResNet50 s1] ep 1/10 train 2.056/0.352 val 1.283/0.734 78s
+[main M1_ResNet50 s1] ep 2/10 train 1.008/0.808 val 0.770/0.899 136s
+[main M1_ResNet50 s1] ep 3/10 train 0.777/0.898 val 0.707/0.918 202s
+[main M1_ResNet50 s1] ep 4/10 train 0.714/0.920 val 0.686/0.928 258s
+[main M1_ResNet50 s1] ep 5/10 train 0.690/0.927 val 0.671/0.934 314s
+[main M1_ResNet50 s1] ep 6/10 train 0.664/0.940 val 0.660/0.938 371s
+[main M1_ResNet50 s1] ep 7/10 train 0.650/0.946 val 0.655/0.940 427s
+[main M1_ResNet50 s1] ep 8/10 train 0.639/0.953 val 0.656/0.939 487s
+[main M1_ResNet50 s1] ep 9/10 train 0.634/0.951 val 0.658/0.936 542s
+[main M1_ResNet50 s1] ep 10/10 train 0.631/0.953 val 0.660/0.936 597s
+TEST acc 0.9445 (best val 0.9405 @ ep 7)
+[main M2_ResNet50_CBAM s1] ep 1/10 train 2.135/0.278 val 1.756/0.509 120s
+[main M2_ResNet50_CBAM s1] ep 2/10 train 1.443/0.628 val 1.094/0.761 216s
+[main M2_ResNet50_CBAM s1] ep 3/10 train 1.106/0.756 val 0.949/0.818 328s
+[main M2_ResNet50_CBAM s1] ep 4/10 train 0.987/0.800 val 0.872/0.851 448s
+[main M2_ResNet50_CBAM s1] ep 5/10 train 0.926/0.828 val 0.831/0.871 568s
+[main M2_ResNet50_CBAM s1] ep 6/10 train 0.874/0.852 val 0.805/0.881 678s
+[main M2_ResNet50_CBAM s1] ep 7/10 train 0.847/0.863 val 0.790/0.891 790s
+[main M2_ResNet50_CBAM s1] ep 8/10 train 0.820/0.874 val 0.787/0.891 892s
+[main M2_ResNet50_CBAM s1] ep 9/10 train 0.808/0.881 val 0.781/0.893 997s
+[main M2_ResNet50_CBAM s1] ep 10/10 train 0.804/0.881 val 0.786/0.891 1086s
+TEST acc 0.8907 (best val 0.8931 @ ep 9)
+[main M3_ConvNeXt_T s1] ep 1/10 train 1.079/0.767 val 0.702/0.928 77s
+[main M3_ConvNeXt_T s1] ep 2/10 train 0.624/0.955 val 0.615/0.957 149s
+[main M3_ConvNeXt_T s1] ep 3/10 train 0.561/0.980 val 0.616/0.949 212s
+[main M3_ConvNeXt_T s1] ep 4/10 train 0.539/0.988 val 0.594/0.959 280s
+[main M3_ConvNeXt_T s1] ep 5/10 train 0.525/0.992 val 0.592/0.959 340s
+[main M3_ConvNeXt_T s1] ep 6/10 train 0.514/0.997 val 0.582/0.964 404s
+[main M3_ConvNeXt_T s1] ep 7/10 train 0.511/0.998 val 0.583/0.965 480s
+[main M3_ConvNeXt_T s1] ep 8/10 train 0.507/0.999 val 0.576/0.967 557s
+[main M3_ConvNeXt_T s1] ep 9/10 train 0.506/0.999 val 0.576/0.967 620s
+[main M3_ConvNeXt_T s1] ep 10/10 train 0.506/0.999 val 0.576/0.967 689s
+TEST acc 0.9747 (best val 0.9674 @ ep 8)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M4_Swin_T s1] ep 1/10 train 1.136/0.748 val 0.743/0.907 106s
+[main M4_Swin_T s1] ep 2/10 train 0.681/0.932 val 0.667/0.933 188s
+[main M4_Swin_T s1] ep 3/10 train 0.621/0.955 val 0.642/0.948 270s
+[main M4_Swin_T s1] ep 4/10 train 0.583/0.970 val 0.633/0.953 370s
+[main M4_Swin_T s1] ep 5/10 train 0.550/0.984 val 0.607/0.955 463s
+=== restart Sun Oct 18 03:23:03 PM CEST 2026 ===
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M4_Swin_T s1] ep 1/10 train 1.138/0.747 val 0.756/0.906 69s GPU 82, 56.25 W
+=== restart2 Sun Oct 18 03:26:07 PM CEST 2026 ===
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s1
+[main M4_Swin_T s1] ep 1/10 train 1.135/0.749 val 0.713/0.919 101s (pauza 20s) GPU 83, 58.72 W
+[main M4_Swin_T s1] ep 2/10 train 0.681/0.936 val 0.667/0.931 229s (pauza 71s) GPU 80, 61.05 W
+[main M4_Swin_T s1] ep 3/10 train 0.620/0.956 val 0.642/0.941 368s (pauza 133s) GPU 79, 57.41 W
+[main M4_Swin_T s1] ep 4/10 train 0.579/0.973 val 0.621/0.952 504s (pauza 184s) GPU 79, 59.13 W
+[main M4_Swin_T s1] ep 5/10 train 0.556/0.982 val 0.618/0.954 635s (pauza 235s) GPU 83, 62.19 W
+[main M4_Swin_T s1] ep 6/10 train 0.541/0.987 val 0.606/0.963 782s (pauza 276s) GPU 82, 48.91 W
+[main M4_Swin_T s1] ep 7/10 train 0.527/0.993 val 0.597/0.962 910s (pauza 326s) GPU 81, 85.40 W
+[main M4_Swin_T s1] ep 8/10 train 0.520/0.996 val 0.595/0.963 1038s (pauza 377s) GPU 82, 76.02 W
+[main M4_Swin_T s1] ep 9/10 train 0.517/0.997 val 0.590/0.967 1170s (pauza 417s) GPU 82, 62.04 W
+[main M4_Swin_T s1] ep 10/10 train 0.516/0.997 val 0.590/0.967 1312s (pauza 483s) GPU 82, 82.26 W
+TEST acc 0.9698 (best val 0.9674 @ ep 9)
+[main M5_CoAtNet_0 s1] ep 1/10 train 1.071/0.770 val 0.754/0.902 161s (pauza 71s) GPU 74, 34.13 W
+[main M5_CoAtNet_0 s1] ep 2/10 train 0.683/0.929 val 0.671/0.931 280s (pauza 96s) GPU 80, 58.76 W
+[main M5_CoAtNet_0 s1] ep 3/10 train 0.610/0.957 val 0.685/0.925 406s (pauza 132s) GPU 82, 70.52 W
+[main M5_CoAtNet_0 s1] ep 4/10 train 0.577/0.970 val 0.629/0.946 529s (pauza 173s) GPU 79, 59.15 W
+[main M5_CoAtNet_0 s1] ep 5/10 train 0.543/0.984 val 0.640/0.948 653s (pauza 223s) GPU 81, 60.10 W
+[main M5_CoAtNet_0 s1] ep 6/10 train 0.528/0.990 val 0.611/0.960 781s (pauza 279s) GPU 80, 58.67 W
+[main M5_CoAtNet_0 s1] ep 7/10 train 0.512/0.998 val 0.602/0.961 907s (pauza 330s) GPU 79, 58.12 W
+[main M5_CoAtNet_0 s1] ep 8/10 train 0.508/0.999 val 0.598/0.964 1030s (pauza 381s) GPU 81, 59.50 W
+[main M5_CoAtNet_0 s1] ep 9/10 train 0.507/0.999 val 0.598/0.962 1160s (pauza 437s) GPU 83, 71.39 W
+[main M5_CoAtNet_0 s1] ep 10/10 train 0.506/0.999 val 0.597/0.963 1300s (pauza 493s) GPU 80, 87.59 W
+TEST acc 0.9731 (best val 0.9641 @ ep 8)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M1_ResNet50 s2] ep 1/10 train 2.088/0.330 val 1.345/0.716 97s (pauza 30s) GPU 81, 59.51 W
+[main M1_ResNet50 s2] ep 2/10 train 1.023/0.814 val 0.775/0.894 192s (pauza 66s) GPU 79, 59.45 W
+[main M1_ResNet50 s2] ep 3/10 train 0.787/0.892 val 0.710/0.919 280s (pauza 101s) GPU 81, 58.45 W
+[main M1_ResNet50 s2] ep 4/10 train 0.718/0.919 val 0.691/0.927 375s (pauza 132s) GPU 82, 57.91 W
+[main M1_ResNet50 s2] ep 5/10 train 0.695/0.926 val 0.681/0.928 467s (pauza 168s) GPU 82, 59.56 W
+[main M1_ResNet50 s2] ep 6/10 train 0.659/0.940 val 0.677/0.931 563s (pauza 203s) GPU 79, 56.58 W
+[main M1_ResNet50 s2] ep 7/10 train 0.648/0.948 val 0.675/0.936 661s (pauza 244s) GPU 80, 58.00 W
+[main M1_ResNet50 s2] ep 8/10 train 0.644/0.947 val 0.665/0.936 756s (pauza 284s) GPU 83, 85.09 W
+[main M1_ResNet50 s2] ep 9/10 train 0.639/0.950 val 0.667/0.934 866s (pauza 335s) GPU 81, 85.14 W
+[main M1_ResNet50 s2] ep 10/10 train 0.635/0.954 val 0.665/0.936 943s (pauza 361s) GPU 81, 85.35 W
+TEST acc 0.9405 (best val 0.9364 @ ep 7)
+[main M2_ResNet50_CBAM s2] ep 1/10 train 2.140/0.282 val 1.779/0.542 166s (pauza 56s) GPU 82, 61.56 W
+[main M2_ResNet50_CBAM s2] ep 2/10 train 1.411/0.636 val 1.079/0.770 354s (pauza 163s) GPU 82, 61.27 W
+[main M2_ResNet50_CBAM s2] ep 3/10 train 1.081/0.768 val 0.916/0.844 541s (pauza 264s) GPU 82, 61.70 W
+[main M2_ResNet50_CBAM s2] ep 4/10 train 0.962/0.815 val 0.854/0.873 724s (pauza 355s) GPU 82, 61.55 W
+[main M2_ResNet50_CBAM s2] ep 5/10 train 0.906/0.836 val 0.815/0.883 912s (pauza 452s) GPU 81, 60.74 W
+[main M2_ResNet50_CBAM s2] ep 6/10 train 0.853/0.862 val 0.792/0.888 1095s (pauza 548s) GPU 82, 60.89 W
+[main M2_ResNet50_CBAM s2] ep 7/10 train 0.828/0.870 val 0.779/0.893 1282s (pauza 655s) GPU 84, 61.72 W
+[main M2_ResNet50_CBAM s2] ep 8/10 train 0.809/0.878 val 0.773/0.904 1480s (pauza 761s) GPU 81, 60.79 W
+[main M2_ResNet50_CBAM s2] ep 9/10 train 0.803/0.880 val 0.774/0.903 1670s (pauza 863s) GPU 81, 86.50 W
+[main M2_ResNet50_CBAM s2] ep 10/10 train 0.798/0.887 val 0.768/0.905 1863s (pauza 965s) GPU 80, 60.46 W
+TEST acc 0.8907 (best val 0.9046 @ ep 10)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M3_ConvNeXt_T s2] ep 1/10 train 1.110/0.745 val 0.681/0.933 167s (pauza 86s) GPU 83, 63.76 W
+[main M3_ConvNeXt_T s2] ep 2/10 train 0.625/0.953 val 0.631/0.940 328s (pauza 188s) GPU 80, 60.24 W
+[main M3_ConvNeXt_T s2] ep 3/10 train 0.568/0.977 val 0.612/0.957 474s (pauza 274s) GPU 81, 60.23 W
+[main M3_ConvNeXt_T s2] ep 4/10 train 0.540/0.987 val 0.593/0.962 626s (pauza 366s) GPU 80, 60.75 W
+[main M3_ConvNeXt_T s2] ep 5/10 train 0.523/0.993 val 0.590/0.966 759s (pauza 437s) GPU 79, 60.39 W
+[main M3_ConvNeXt_T s2] ep 6/10 train 0.514/0.996 val 0.586/0.964 882s (pauza 487s) GPU 82, 84.41 W
+[main M3_ConvNeXt_T s2] ep 7/10 train 0.511/0.998 val 0.578/0.967 1034s (pauza 579s) GPU 83, 62.15 W
+[main M3_ConvNeXt_T s2] ep 8/10 train 0.509/0.999 val 0.577/0.966 1208s (pauza 696s) GPU 81, 84.39 W
+[main M3_ConvNeXt_T s2] ep 9/10 train 0.506/0.999 val 0.578/0.962 1369s (pauza 792s) GPU 82, 85.18 W
+[main M3_ConvNeXt_T s2] ep 10/10 train 0.506/0.999 val 0.578/0.963 1574s (pauza 939s) GPU 82, 84.32 W
+TEST acc 0.9763 (best val 0.9666 @ ep 7)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M4_Swin_T s2] ep 1/10 train 1.109/0.760 val 0.727/0.917 213s (pauza 137s) GPU 82, 58.37 W
+[main M4_Swin_T s2] ep 2/10 train 0.678/0.937 val 0.651/0.942 424s (pauza 279s) GPU 81, 61.27 W
+[main M4_Swin_T s2] ep 3/10 train 0.620/0.957 val 0.675/0.927 680s (pauza 466s) GPU 82, 65.09 W
+[main M4_Swin_T s2] ep 4/10 train 0.577/0.973 val 0.615/0.948 872s (pauza 583s) GPU 82, 60.22 W
+[main M4_Swin_T s2] ep 5/10 train 0.551/0.985 val 0.600/0.959 1065s (pauza 705s) GPU 83, 62.01 W
+[main M4_Swin_T s2] ep 6/10 train 0.537/0.990 val 0.608/0.959 1266s (pauza 827s) GPU 83, 87.41 W
+[main M4_Swin_T s2] ep 7/10 train 0.527/0.993 val 0.593/0.962 1529s (pauza 1004s) GPU 84, 64.28 W
+[main M4_Swin_T s2] ep 8/10 train 0.519/0.997 val 0.597/0.960 1783s (pauza 1181s) GPU 82, 88.67 W
+[main M4_Swin_T s2] ep 9/10 train 0.518/0.996 val 0.592/0.965 1961s (pauza 1278s) GPU 82, 61.24 W
+[main M4_Swin_T s2] ep 10/10 train 0.515/0.998 val 0.593/0.963 2177s (pauza 1425s) GPU 82, 62.44 W
+TEST acc 0.9698 (best val 0.9649 @ ep 9)
+[main M5_CoAtNet_0 s2] ep 1/10 train 1.079/0.758 val 0.758/0.894 156s (pauza 56s) GPU 83, 61.65 W
+[main M5_CoAtNet_0 s2] ep 2/10 train 0.687/0.929 val 0.671/0.929 312s (pauza 122s) GPU 81, 57.96 W
+[main M5_CoAtNet_0 s2] ep 3/10 train 0.615/0.953 val 0.676/0.929 452s (pauza 178s) GPU 83, 71.40 W
+[main M5_CoAtNet_0 s2] ep 4/10 train 0.569/0.973 val 0.627/0.950 596s (pauza 233s) GPU 82, 61.13 W
+[main M5_CoAtNet_0 s2] ep 5/10 train 0.541/0.985 val 0.611/0.954 729s (pauza 289s) GPU 82, 59.30 W
+[main M5_CoAtNet_0 s2] ep 6/10 train 0.525/0.992 val 0.603/0.960 872s (pauza 355s) GPU 82, 61.06 W
+[main M5_CoAtNet_0 s2] ep 7/10 train 0.517/0.995 val 0.600/0.964 1020s (pauza 431s) GPU 80, 60.18 W
+[main M5_CoAtNet_0 s2] ep 8/10 train 0.511/0.997 val 0.588/0.965 1166s (pauza 497s) GPU 82, 60.92 W
+[main M5_CoAtNet_0 s2] ep 9/10 train 0.507/0.998 val 0.587/0.966 1304s (pauza 543s) GPU 82, 62.29 W
+[main M5_CoAtNet_0 s2] ep 10/10 train 0.507/0.999 val 0.585/0.968 1474s (pauza 639s) GPU 82, 61.00 W
+TEST acc 0.9674 (best val 0.9682 @ ep 10)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M1_ResNet50 s3] ep 1/10 train 2.049/0.382 val 1.254/0.763 134s (pauza 71s) GPU 84, 60.15 W
+[main M1_ResNet50 s3] ep 2/10 train 0.992/0.820 val 0.762/0.905 267s (pauza 142s) GPU 82, 60.63 W
+[main M1_ResNet50 s3] ep 3/10 train 0.776/0.896 val 0.704/0.920 391s (pauza 213s) GPU 81, 59.77 W
+[main M1_ResNet50 s3] ep 4/10 train 0.719/0.915 val 0.672/0.937 523s (pauza 279s) GPU 78, 58.83 W
+[main M1_ResNet50 s3] ep 5/10 train 0.687/0.928 val 0.667/0.934 635s (pauza 325s) GPU 83, 85.87 W
+[main M1_ResNet50 s3] ep 6/10 train 0.669/0.938 val 0.656/0.936 740s (pauza 381s) GPU 83, 83.75 W
+[main M1_ResNet50 s3] ep 7/10 train 0.650/0.946 val 0.657/0.936 849s (pauza 432s) GPU 80, 85.10 W
+[main M1_ResNet50 s3] ep 8/10 train 0.640/0.951 val 0.654/0.937 943s (pauza 472s) GPU 83, 82.94 W
+[main M1_ResNet50 s3] ep 9/10 train 0.635/0.952 val 0.653/0.939 1050s (pauza 533s) GPU 81, 60.73 W
+[main M1_ResNet50 s3] ep 10/10 train 0.633/0.951 val 0.655/0.939 1159s (pauza 594s) GPU 82, 77.15 W
+TEST acc 0.9429 (best val 0.9388 @ ep 9)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M2_ResNet50_CBAM s3] ep 1/10 train 2.134/0.278 val 1.717/0.554 9046s (pauza 0s) GPU 53, 18.09 W
+[main M2_ResNet50_CBAM s3] ep 2/10 train 1.415/0.636 val 1.095/0.759 9512s (pauza 0s) GPU 55, 10.62 W
+[main M2_ResNet50_CBAM s3] ep 3/10 train 1.084/0.764 val 0.931/0.838 10000s (pauza 0s) GPU 55, 11.66 W
+[main M2_ResNet50_CBAM s3] ep 4/10 train 0.973/0.805 val 0.845/0.875 10513s (pauza 0s) GPU 54, 8.76 W
+[main M2_ResNet50_CBAM s3] ep 5/10 train 0.909/0.835 val 0.817/0.888 11014s (pauza 0s) GPU 55, 9.76 W
+[main M2_ResNet50_CBAM s3] ep 6/10 train 0.865/0.855 val 0.791/0.900 11521s (pauza 0s) GPU 55, 10.28 W
+[main M2_ResNet50_CBAM s3] ep 7/10 train 0.836/0.868 val 0.778/0.899 12025s (pauza 0s) GPU 55, 18.00 W
+[main M2_ResNet50_CBAM s3] ep 8/10 train 0.814/0.879 val 0.773/0.900 12554s (pauza 0s) GPU 55, 12.37 W
+[main M2_ResNet50_CBAM s3] ep 9/10 train 0.806/0.880 val 0.772/0.898 13048s (pauza 0s) GPU 55, 19.31 W
+[main M2_ResNet50_CBAM s3] ep 10/10 train 0.800/0.883 val 0.770/0.902 13537s (pauza 0s) GPU 55, 8.79 W
+TEST acc 0.8891 (best val 0.9021 @ ep 10)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M3_ConvNeXt_T s3] ep 1/10 train 1.070/0.771 val 0.736/0.903 444s (pauza 0s) GPU 55, 23.11 W
+[main M3_ConvNeXt_T s3] ep 2/10 train 0.623/0.955 val 0.614/0.952 867s (pauza 0s) GPU 53, 8.74 W
+[main M3_ConvNeXt_T s3] ep 3/10 train 0.563/0.976 val 0.600/0.954 1290s (pauza 0s) GPU 55, 8.93 W
+[main M3_ConvNeXt_T s3] ep 4/10 train 0.534/0.990 val 0.616/0.952 1715s (pauza 0s) GPU 56, 19.94 W
+[main M3_ConvNeXt_T s3] ep 5/10 train 0.522/0.994 val 0.594/0.959 2139s (pauza 0s) GPU 54, 13.22 W
+[main M3_ConvNeXt_T s3] ep 6/10 train 0.514/0.997 val 0.585/0.966 2548s (pauza 0s) GPU 55, 10.30 W
+[main M3_ConvNeXt_T s3] ep 7/10 train 0.509/0.999 val 0.581/0.963 2931s (pauza 0s) GPU 55, 19.57 W
+[main M3_ConvNeXt_T s3] ep 8/10 train 0.507/0.999 val 0.580/0.967 3282s (pauza 0s) GPU 55, 9.16 W
+[main M3_ConvNeXt_T s3] ep 9/10 train 0.506/0.999 val 0.580/0.967 3699s (pauza 0s) GPU 54, 8.62 W
+[main M3_ConvNeXt_T s3] ep 10/10 train 0.506/0.999 val 0.580/0.966 4092s (pauza 0s) GPU 54, 19.41 W
+TEST acc 0.9755 (best val 0.9674 @ ep 9)
+[main M4_Swin_T s3] ep 1/10 train 1.173/0.719 val 0.738/0.896 474s (pauza 0s) GPU 53, 14.30 W
+[main M4_Swin_T s3] ep 2/10 train 0.688/0.928 val 0.642/0.948 978s (pauza 0s) GPU 54, 13.18 W
+[main M4_Swin_T s3] ep 3/10 train 0.612/0.960 val 0.631/0.946 1479s (pauza 0s) GPU 54, 20.10 W
+[main M4_Swin_T s3] ep 4/10 train 0.580/0.973 val 0.620/0.958 1990s (pauza 0s) GPU 54, 13.67 W
+[main M4_Swin_T s3] ep 5/10 train 0.552/0.984 val 0.619/0.952 2481s (pauza 0s) GPU 54, 19.73 W
+[main M4_Swin_T s3] ep 6/10 train 0.538/0.989 val 0.599/0.964 2984s (pauza 0s) GPU 54, 13.01 W
+[main M4_Swin_T s3] ep 7/10 train 0.524/0.995 val 0.596/0.959 3432s (pauza 0s) GPU 55, 19.87 W
+[main M4_Swin_T s3] ep 8/10 train 0.520/0.996 val 0.593/0.964 3915s (pauza 0s) GPU 55, 19.93 W
+[main M4_Swin_T s3] ep 9/10 train 0.516/0.997 val 0.592/0.964 4361s (pauza 0s) GPU 55, 19.88 W
+[main M4_Swin_T s3] ep 10/10 train 0.517/0.997 val 0.593/0.964 4791s (pauza 0s) GPU 54, 19.02 W
+TEST acc 0.9657 (best val 0.9641 @ ep 6)
+[main M5_CoAtNet_0 s3] ep 1/10 train 1.086/0.753 val 0.755/0.892 576s (pauza 0s) GPU 54, 17.48 W
+[main M5_CoAtNet_0 s3] ep 2/10 train 0.689/0.924 val 0.670/0.929 1118s (pauza 0s) GPU 55, 9.10 W
+[main M5_CoAtNet_0 s3] ep 3/10 train 0.614/0.953 val 0.686/0.923 1660s (pauza 0s) GPU 54, 20.25 W
+[main M5_CoAtNet_0 s3] ep 4/10 train 0.571/0.973 val 0.627/0.952 2202s (pauza 0s) GPU 55, 11.55 W
+[main M5_CoAtNet_0 s3] ep 5/10 train 0.549/0.982 val 0.630/0.949 2744s (pauza 0s) GPU 56, 18.53 W
+[main M5_CoAtNet_0 s3] ep 6/10 train 0.527/0.991 val 0.596/0.963 3287s (pauza 0s) GPU 56, 10.63 W
+[main M5_CoAtNet_0 s3] ep 7/10 train 0.515/0.996 val 0.592/0.969 3830s (pauza 0s) GPU 55, 11.91 W
+[main M5_CoAtNet_0 s3] ep 8/10 train 0.511/0.997 val 0.597/0.958 4372s (pauza 0s) GPU 55, 19.61 W
+[main M5_CoAtNet_0 s3] ep 9/10 train 0.507/0.998 val 0.592/0.962 4915s (pauza 0s) GPU 55, 20.02 W
+[main M5_CoAtNet_0 s3] ep 10/10 train 0.507/0.999 val 0.592/0.962 5457s (pauza 0s) GPU 56, 19.99 W
+TEST acc 0.9666 (best val 0.9690 @ ep 7)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[no_aug M1_ResNet50 s1] ep 1/10 train 2.000/0.396 val 1.147/0.764 369s (pauza 0s) GPU 55, 15.97 W
+[no_aug M1_ResNet50 s1] ep 2/10 train 0.889/0.861 val 0.719/0.918 723s (pauza 0s) GPU 56, 13.20 W
+[no_aug M1_ResNet50 s1] ep 3/10 train 0.678/0.938 val 0.678/0.932 1052s (pauza 0s) GPU 55, 12.10 W
+[no_aug M1_ResNet50 s1] ep 4/10 train 0.613/0.964 val 0.649/0.937 1404s (pauza 0s) GPU 57, 15.21 W
+[no_aug M1_ResNet50 s1] ep 5/10 train 0.583/0.977 val 0.640/0.943 1758s (pauza 0s) GPU 56, 14.03 W
+[no_aug M1_ResNet50 s1] ep 6/10 train 0.561/0.986 val 0.639/0.940 2112s (pauza 0s) GPU 55, 21.16 W
+[no_aug M1_ResNet50 s1] ep 7/10 train 0.549/0.990 val 0.637/0.942 2452s (pauza 0s) GPU 56, 20.17 W
+[no_aug M1_ResNet50 s1] ep 8/10 train 0.542/0.993 val 0.634/0.943 2806s (pauza 0s) GPU 56, 19.81 W
+[no_aug M1_ResNet50 s1] ep 9/10 train 0.539/0.994 val 0.637/0.945 3159s (pauza 0s) GPU 55, 10.72 W
+[no_aug M1_ResNet50 s1] ep 10/10 train 0.538/0.995 val 0.640/0.938 3512s (pauza 0s) GPU 56, 19.88 W
+TEST acc 0.9502 (best val 0.9445 @ ep 9)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[no_aug M1_ResNet50 s2] ep 1/10 train 1.999/0.392 val 1.158/0.788 374s (pauza 0s) GPU 57, 17.54 W
+[no_aug M1_ResNet50 s2] ep 2/10 train 0.874/0.872 val 0.714/0.920 725s (pauza 0s) GPU 54, 10.90 W
+=== restart3 Mon Oct 19 07:35:22 PM CEST 2026 ===
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M4_Swin_T_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M5_CoAtNet_0_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M4_Swin_T_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M5_CoAtNet_0_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M4_Swin_T_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M5_CoAtNet_0_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/no_aug/M1_ResNet50_s1
+[no_aug M1_ResNet50 s2] ep 1/10 train 1.996/0.395 val 1.165/0.789 341s (pauza 0s) GPU 55, 8.71 W
+./run_all.sh terminated by signal TERM.
+=== restart4 Mon Oct 19 08:24:05 PM CEST 2026 ===
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M4_Swin_T_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M5_CoAtNet_0_s1
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M4_Swin_T_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M5_CoAtNet_0_s2
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M1_ResNet50_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M2_ResNet50_CBAM_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M3_ConvNeXt_T_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M4_Swin_T_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/main/M5_CoAtNet_0_s3
+hotové, preskakujem /home/spear/Documents/HNS/projekt1/runs/no_aug/M1_ResNet50_s1
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[no_aug M1_ResNet50 s2] ep 1/10 train 1.999/0.391 val 1.160/0.786 51s (pauza 0s) GPU 74, 63.08 W
+[no_aug M1_ResNet50 s2] ep 2/10 train 0.875/0.869 val 0.719/0.914 93s (pauza 0s) GPU 80, 57.61 W
+[no_aug M1_ResNet50 s2] ep 3/10 train 0.677/0.937 val 0.674/0.932 151s (pauza 15s) GPU 80, 60.18 W
+[no_aug M1_ResNet50 s2] ep 4/10 train 0.614/0.964 val 0.658/0.939 229s (pauza 51s) GPU 81, 59.77 W
+[no_aug M1_ResNet50 s2] ep 5/10 train 0.580/0.979 val 0.654/0.942 301s (pauza 81s) GPU 80, 56.64 W
+[no_aug M1_ResNet50 s2] ep 6/10 train 0.558/0.986 val 0.645/0.945 373s (pauza 102s) GPU 82, 59.61 W
+[no_aug M1_ResNet50 s2] ep 7/10 train 0.551/0.990 val 0.650/0.943 450s (pauza 137s) GPU 80, 83.21 W
+[no_aug M1_ResNet50 s2] ep 8/10 train 0.544/0.992 val 0.644/0.949 522s (pauza 167s) GPU 79, 58.49 W
+[no_aug M1_ResNet50 s2] ep 9/10 train 0.540/0.994 val 0.647/0.946 595s (pauza 198s) GPU 81, 74.97 W
+[no_aug M1_ResNet50 s2] ep 10/10 train 0.540/0.993 val 0.643/0.949 667s (pauza 228s) GPU 81, 67.66 W
+TEST acc 0.9519 (best val 0.9494 @ ep 8)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[no_aug M1_ResNet50 s3] ep 1/10 train 1.962/0.455 val 1.107/0.810 77s (pauza 25s) GPU 81, 57.70 W
+[no_aug M1_ResNet50 s3] ep 2/10 train 0.868/0.869 val 0.704/0.931 149s (pauza 56s) GPU 83, 58.87 W
+[no_aug M1_ResNet50 s3] ep 3/10 train 0.673/0.939 val 0.666/0.935 227s (pauza 91s) GPU 80, 60.25 W
+[no_aug M1_ResNet50 s3] ep 4/10 train 0.611/0.965 val 0.646/0.945 299s (pauza 122s) GPU 81, 60.57 W
+[no_aug M1_ResNet50 s3] ep 5/10 train 0.578/0.979 val 0.640/0.944 375s (pauza 152s) GPU 83, 83.52 W
+[no_aug M1_ResNet50 s3] ep 6/10 train 0.560/0.987 val 0.635/0.945 458s (pauza 193s) GPU 80, 58.28 W
+[no_aug M1_ResNet50 s3] ep 7/10 train 0.548/0.991 val 0.631/0.949 540s (pauza 233s) GPU 80, 57.29 W
+[no_aug M1_ResNet50 s3] ep 8/10 train 0.540/0.993 val 0.630/0.950 613s (pauza 264s) GPU 82, 58.34 W
+[no_aug M1_ResNet50 s3] ep 9/10 train 0.538/0.994 val 0.629/0.948 695s (pauza 304s) GPU 81, 83.38 W
+[no_aug M1_ResNet50 s3] ep 10/10 train 0.536/0.995 val 0.629/0.950 767s (pauza 335s) GPU 83, 84.68 W
+TEST acc 0.9568 (best val 0.9502 @ ep 8)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[unfreeze_head M1_ResNet50 s1] ep 1/10 train 2.187/0.343 val 1.968/0.619 68s (pauza 20s) GPU 83, 36.24 W
+[unfreeze_head M1_ResNet50 s1] ep 2/10 train 1.752/0.706 val 1.539/0.754 134s (pauza 41s) GPU 83, 59.94 W
+[unfreeze_head M1_ResNet50 s1] ep 3/10 train 1.434/0.780 val 1.299/0.793 212s (pauza 71s) GPU 80, 55.34 W
+[unfreeze_head M1_ResNet50 s1] ep 4/10 train 1.253/0.809 val 1.162/0.816 285s (pauza 101s) GPU 82, 56.44 W
+[unfreeze_head M1_ResNet50 s1] ep 5/10 train 1.148/0.829 val 1.083/0.833 363s (pauza 132s) GPU 81, 60.19 W
+[unfreeze_head M1_ResNet50 s1] ep 6/10 train 1.088/0.837 val 1.038/0.843 436s (pauza 162s) GPU 82, 60.16 W
+[unfreeze_head M1_ResNet50 s1] ep 7/10 train 1.054/0.843 val 1.012/0.848 509s (pauza 193s) GPU 82, 61.59 W
+[unfreeze_head M1_ResNet50 s1] ep 8/10 train 1.033/0.848 val 1.000/0.852 587s (pauza 223s) GPU 81, 56.55 W
+[unfreeze_head M1_ResNet50 s1] ep 9/10 train 1.026/0.845 val 0.995/0.852 660s (pauza 254s) GPU 81, 86.81 W
+[unfreeze_head M1_ResNet50 s1] ep 10/10 train 1.024/0.847 val 0.994/0.852 723s (pauza 274s) GPU 84, 84.63 W
+TEST acc 0.8654 (best val 0.8515 @ ep 8)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[unfreeze_head M1_ResNet50 s2] ep 1/10 train 2.190/0.347 val 1.972/0.622 82s (pauza 20s) GPU 80, 58.42 W
+[unfreeze_head M1_ResNet50 s2] ep 2/10 train 1.752/0.693 val 1.541/0.741 145s (pauza 41s) GPU 84, 60.49 W
+[unfreeze_head M1_ResNet50 s2] ep 3/10 train 1.432/0.782 val 1.298/0.783 217s (pauza 71s) GPU 83, 60.44 W
+[unfreeze_head M1_ResNet50 s2] ep 4/10 train 1.252/0.808 val 1.162/0.812 299s (pauza 112s) GPU 82, 58.55 W
+[unfreeze_head M1_ResNet50 s2] ep 5/10 train 1.151/0.821 val 1.085/0.832 366s (pauza 132s) GPU 81, 48.31 W
+[unfreeze_head M1_ResNet50 s2] ep 6/10 train 1.088/0.834 val 1.038/0.840 439s (pauza 162s) GPU 80, 56.58 W
+[unfreeze_head M1_ResNet50 s2] ep 7/10 train 1.054/0.836 val 1.013/0.842 508s (pauza 183s) GPU 81, 58.58 W
+[unfreeze_head M1_ResNet50 s2] ep 8/10 train 1.035/0.842 val 1.000/0.844 582s (pauza 213s) GPU 81, 61.68 W
+[unfreeze_head M1_ResNet50 s2] ep 9/10 train 1.026/0.846 val 0.995/0.846 658s (pauza 243s) GPU 80, 59.75 W
+[unfreeze_head M1_ResNet50 s2] ep 10/10 train 1.023/0.846 val 0.994/0.847 731s (pauza 274s) GPU 81, 60.97 W
+TEST acc 0.8687 (best val 0.8475 @ ep 10)
+[unfreeze_head M1_ResNet50 s3] ep 1/10 train 2.177/0.381 val 1.959/0.619 72s (pauza 20s) GPU 82, 71.68 W
+[unfreeze_head M1_ResNet50 s3] ep 2/10 train 1.743/0.682 val 1.534/0.746 144s (pauza 51s) GPU 82, 59.58 W
+[unfreeze_head M1_ResNet50 s3] ep 3/10 train 1.427/0.775 val 1.295/0.800 222s (pauza 81s) GPU 80, 59.01 W
+[unfreeze_head M1_ResNet50 s3] ep 4/10 train 1.251/0.809 val 1.161/0.817 294s (pauza 112s) GPU 81, 60.03 W
+[unfreeze_head M1_ResNet50 s3] ep 5/10 train 1.149/0.822 val 1.083/0.835 369s (pauza 142s) GPU 80, 61.25 W
+[unfreeze_head M1_ResNet50 s3] ep 6/10 train 1.087/0.839 val 1.038/0.845 437s (pauza 162s) GPU 82, 62.87 W
+[unfreeze_head M1_ResNet50 s3] ep 7/10 train 1.051/0.843 val 1.013/0.847 508s (pauza 183s) GPU 82, 60.80 W
+[unfreeze_head M1_ResNet50 s3] ep 8/10 train 1.034/0.842 val 1.000/0.849 581s (pauza 213s) GPU 81, 59.86 W
+[unfreeze_head M1_ResNet50 s3] ep 9/10 train 1.027/0.843 val 0.995/0.851 653s (pauza 243s) GPU 83, 59.19 W
+[unfreeze_head M1_ResNet50 s3] ep 10/10 train 1.026/0.844 val 0.994/0.852 736s (pauza 284s) GPU 79, 58.67 W
+TEST acc 0.8679 (best val 0.8515 @ ep 10)
+[unfreeze_gradual M1_ResNet50 s1] ep 1/10 train 2.187/0.343 val 1.968/0.619 66s (pauza 20s) GPU 83, 58.62 W
+[unfreeze_gradual M1_ResNet50 s1] ep 2/10 train 1.752/0.706 val 1.539/0.754 140s (pauza 51s) GPU 81, 60.29 W
+[unfreeze_gradual M1_ResNet50 s1] ep 3/10 train 1.109/0.796 val 0.822/0.885 227s (pauza 92s) GPU 79, 59.53 W
+[unfreeze_gradual M1_ResNet50 s1] ep 4/10 train 0.834/0.872 val 0.749/0.905 300s (pauza 122s) GPU 83, 58.32 W
+[unfreeze_gradual M1_ResNet50 s1] ep 5/10 train 0.809/0.885 val 0.730/0.907 397s (pauza 173s) GPU 81, 59.57 W
+[unfreeze_gradual M1_ResNet50 s1] ep 6/10 train 0.744/0.910 val 0.706/0.918 481s (pauza 214s) GPU 82, 58.69 W
+[unfreeze_gradual M1_ResNet50 s1] ep 7/10 train 0.771/0.894 val 0.707/0.916 591s (pauza 275s) GPU 82, 80.48 W
+[unfreeze_gradual M1_ResNet50 s1] ep 8/10 train 0.726/0.916 val 0.697/0.926 695s (pauza 325s) GPU 81, 52.65 W
+[unfreeze_gradual M1_ResNet50 s1] ep 9/10 train 0.714/0.917 val 0.701/0.919 807s (pauza 386s) GPU 82, 78.88 W
+[unfreeze_gradual M1_ResNet50 s1] ep 10/10 train 0.707/0.923 val 0.699/0.918 914s (pauza 447s) GPU 81, 85.78 W
+TEST acc 0.9323 (best val 0.9258 @ ep 8)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[unfreeze_gradual M1_ResNet50 s2] ep 1/10 train 2.190/0.347 val 1.972/0.622 75s (pauza 30s) GPU 81, 59.30 W
+[unfreeze_gradual M1_ResNet50 s2] ep 2/10 train 1.752/0.693 val 1.541/0.742 138s (pauza 51s) GPU 84, 58.42 W
+[unfreeze_gradual M1_ResNet50 s2] ep 3/10 train 1.101/0.802 val 0.814/0.889 223s (pauza 91s) GPU 83, 60.02 W
+[unfreeze_gradual M1_ResNet50 s2] ep 4/10 train 0.829/0.876 val 0.742/0.912 311s (pauza 137s) GPU 79, 51.07 W
+[unfreeze_gradual M1_ResNet50 s2] ep 5/10 train 0.818/0.880 val 0.730/0.905 396s (pauza 178s) GPU 82, 84.58 W
+[unfreeze_gradual M1_ResNet50 s2] ep 6/10 train 0.738/0.910 val 0.708/0.914 480s (pauza 218s) GPU 83, 61.34 W
+[unfreeze_gradual M1_ResNet50 s2] ep 7/10 train 0.758/0.901 val 0.718/0.917 590s (pauza 269s) GPU 82, 60.75 W
+[unfreeze_gradual M1_ResNet50 s2] ep 8/10 train 0.725/0.915 val 0.706/0.928 698s (pauza 330s) GPU 82, 60.89 W
+[unfreeze_gradual M1_ResNet50 s2] ep 9/10 train 0.717/0.916 val 0.703/0.922 795s (pauza 381s) GPU 83, 76.80 W
+[unfreeze_gradual M1_ResNet50 s2] ep 10/10 train 0.711/0.923 val 0.699/0.926 902s (pauza 441s) GPU 81, 86.08 W
+TEST acc 0.9299 (best val 0.9282 @ ep 8)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[unfreeze_gradual M1_ResNet50 s3] ep 1/10 train 2.177/0.381 val 1.959/0.619 70s (pauza 20s) GPU 82, 60.13 W
+[unfreeze_gradual M1_ResNet50 s3] ep 2/10 train 1.743/0.682 val 1.534/0.746 143s (pauza 51s) GPU 81, 60.47 W
+[unfreeze_gradual M1_ResNet50 s3] ep 3/10 train 1.105/0.799 val 0.825/0.884 219s (pauza 81s) GPU 79, 48.79 W
+[unfreeze_gradual M1_ResNet50 s3] ep 4/10 train 0.833/0.874 val 0.742/0.913 296s (pauza 112s) GPU 84, 61.45 W
+[unfreeze_gradual M1_ResNet50 s3] ep 5/10 train 0.811/0.881 val 0.727/0.909 400s (pauza 168s) GPU 80, 81.06 W
+[unfreeze_gradual M1_ResNet50 s3] ep 6/10 train 0.744/0.908 val 0.705/0.918 483s (pauza 208s) GPU 83, 60.10 W
+[unfreeze_gradual M1_ResNet50 s3] ep 7/10 train 0.765/0.899 val 0.714/0.918 598s (pauza 269s) GPU 80, 84.38 W
+[unfreeze_gradual M1_ResNet50 s3] ep 8/10 train 0.725/0.916 val 0.703/0.918 705s (pauza 330s) GPU 81, 86.44 W
+[unfreeze_gradual M1_ResNet50 s3] ep 9/10 train 0.713/0.920 val 0.696/0.921 813s (pauza 391s) GPU 79, 52.21 W
+[unfreeze_gradual M1_ResNet50 s3] ep 10/10 train 0.710/0.922 val 0.702/0.916 911s (pauza 432s) GPU 84, 83.05 W
+TEST acc 0.9364 (best val 0.9209 @ ep 9)
+[unfreeze_scratch M1_ResNet50 s1] ep 1/10 train 2.008/0.309 val 1.849/0.409 117s (pauza 61s) GPU 82, 59.11 W
+[unfreeze_scratch M1_ResNet50 s1] ep 2/10 train 1.779/0.426 val 1.746/0.436 219s (pauza 117s) GPU 82, 59.65 W
+[unfreeze_scratch M1_ResNet50 s1] ep 3/10 train 1.670/0.478 val 1.644/0.491 322s (pauza 167s) GPU 84, 60.62 W
+[unfreeze_scratch M1_ResNet50 s1] ep 4/10 train 1.602/0.512 val 1.592/0.512 440s (pauza 238s) GPU 80, 59.48 W
+[unfreeze_scratch M1_ResNet50 s1] ep 5/10 train 1.538/0.540 val 1.514/0.564 547s (pauza 299s) GPU 81, 58.67 W
+[unfreeze_scratch M1_ResNet50 s1] ep 6/10 train 1.493/0.561 val 1.550/0.537 660s (pauza 360s) GPU 80, 85.76 W
+[unfreeze_scratch M1_ResNet50 s1] ep 7/10 train 1.450/0.589 val 1.443/0.587 767s (pauza 421s) GPU 81, 55.26 W
+[unfreeze_scratch M1_ResNet50 s1] ep 8/10 train 1.421/0.597 val 1.404/0.617 869s (pauza 472s) GPU 81, 61.60 W
+[unfreeze_scratch M1_ResNet50 s1] ep 9/10 train 1.385/0.612 val 1.388/0.628 976s (pauza 532s) GPU 82, 60.23 W
+[unfreeze_scratch M1_ResNet50 s1] ep 10/10 train 1.380/0.622 val 1.394/0.618 1083s (pauza 594s) GPU 81, 81.07 W
+TEST acc 0.6411 (best val 0.6281 @ ep 9)
+[unfreeze_scratch M1_ResNet50 s2] ep 1/10 train 1.998/0.322 val 1.860/0.405 116s (pauza 51s) GPU 81, 59.16 W
+[unfreeze_scratch M1_ResNet50 s2] ep 2/10 train 1.761/0.430 val 1.710/0.482 223s (pauza 112s) GPU 82, 56.31 W
+[unfreeze_scratch M1_ResNet50 s2] ep 3/10 train 1.665/0.479 val 1.604/0.529 334s (pauza 167s) GPU 83, 61.05 W
+[unfreeze_scratch M1_ResNet50 s2] ep 4/10 train 1.602/0.514 val 1.550/0.551 441s (pauza 228s) GPU 82, 61.38 W
+[unfreeze_scratch M1_ResNet50 s2] ep 5/10 train 1.543/0.542 val 1.533/0.542 549s (pauza 289s) GPU 81, 86.14 W
+[unfreeze_scratch M1_ResNet50 s2] ep 6/10 train 1.483/0.565 val 1.478/0.582 662s (pauza 350s) GPU 80, 58.76 W
+[unfreeze_scratch M1_ResNet50 s2] ep 7/10 train 1.448/0.580 val 1.420/0.601 764s (pauza 401s) GPU 83, 59.21 W
+[unfreeze_scratch M1_ResNet50 s2] ep 8/10 train 1.416/0.600 val 1.400/0.609 872s (pauza 462s) GPU 80, 59.32 W
+[unfreeze_scratch M1_ResNet50 s2] ep 9/10 train 1.387/0.615 val 1.381/0.630 979s (pauza 518s) GPU 80, 59.19 W
+[unfreeze_scratch M1_ResNet50 s2] ep 10/10 train 1.380/0.621 val 1.382/0.629 1077s (pauza 568s) GPU 83, 85.15 W
+TEST acc 0.6476 (best val 0.6297 @ ep 9)
+[unfreeze_scratch M1_ResNet50 s3] ep 1/10 train 2.001/0.322 val 1.873/0.392 117s (pauza 61s) GPU 81, 59.13 W
+[unfreeze_scratch M1_ResNet50 s3] ep 2/10 train 1.771/0.432 val 1.772/0.444 225s (pauza 122s) GPU 81, 58.41 W
+[unfreeze_scratch M1_ResNet50 s3] ep 3/10 train 1.673/0.481 val 1.651/0.498 333s (pauza 183s) GPU 81, 60.41 W
+[unfreeze_scratch M1_ResNet50 s3] ep 4/10 train 1.593/0.520 val 1.594/0.533 440s (pauza 244s) GPU 82, 59.11 W
+[unfreeze_scratch M1_ResNet50 s3] ep 5/10 train 1.547/0.534 val 1.552/0.531 547s (pauza 304s) GPU 83, 68.91 W
+[unfreeze_scratch M1_ResNet50 s3] ep 6/10 train 1.494/0.560 val 1.473/0.582 649s (pauza 355s) GPU 82, 60.06 W
+[unfreeze_scratch M1_ResNet50 s3] ep 7/10 train 1.446/0.590 val 1.441/0.592 757s (pauza 416s) GPU 82, 61.72 W
+[unfreeze_scratch M1_ResNet50 s3] ep 8/10 train 1.417/0.602 val 1.395/0.625 864s (pauza 477s) GPU 83, 61.47 W
+[unfreeze_scratch M1_ResNet50 s3] ep 9/10 train 1.395/0.618 val 1.387/0.624 972s (pauza 538s) GPU 83, 85.00 W
+[unfreeze_scratch M1_ResNet50 s3] ep 10/10 train 1.380/0.618 val 1.384/0.621 1080s (pauza 599s) GPU 83, 85.12 W
+TEST acc 0.6330 (best val 0.6248 @ ep 8)
+VŠETKO HOTOVÉ
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M2b_ResNet50_CBAM_id s1] ep 1/10 train 1.709/0.535 val 0.935/0.847 160s (pauza 66s) GPU 82, 60.69 W
+[main M2b_ResNet50_CBAM_id s1] ep 2/10 train 0.873/0.856 val 0.745/0.897 316s (pauza 147s) GPU 83, 60.71 W
+[main M2b_ResNet50_CBAM_id s1] ep 3/10 train 0.757/0.905 val 0.700/0.921 481s (pauza 239s) GPU 82, 60.51 W
+[main M2b_ResNet50_CBAM_id s1] ep 4/10 train 0.710/0.923 val 0.681/0.927 659s (pauza 335s) GPU 80, 56.86 W
+[main M2b_ResNet50_CBAM_id s1] ep 5/10 train 0.686/0.930 val 0.670/0.931 818s (pauza 416s) GPU 83, 61.25 W
+[main M2b_ResNet50_CBAM_id s1] ep 6/10 train 0.661/0.940 val 0.662/0.934 989s (pauza 513s) GPU 80, 59.90 W
+[main M2b_ResNet50_CBAM_id s1] ep 7/10 train 0.645/0.950 val 0.651/0.936 1153s (pauza 599s) GPU 81, 59.89 W
+[main M2b_ResNet50_CBAM_id s1] ep 8/10 train 0.627/0.957 val 0.651/0.936 1314s (pauza 680s) GPU 83, 84.53 W
+[main M2b_ResNet50_CBAM_id s1] ep 9/10 train 0.626/0.955 val 0.649/0.937 1484s (pauza 777s) GPU 80, 60.55 W
+[main M2b_ResNet50_CBAM_id s1] ep 10/10 train 0.622/0.958 val 0.654/0.936 1649s (pauza 858s) GPU 81, 88.65 W
+TEST acc 0.9429 (best val 0.9372 @ ep 9)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M2b_ResNet50_CBAM_id s2] ep 1/10 train 1.702/0.538 val 0.928/0.843 160s (pauza 61s) GPU 83, 60.90 W
+[main M2b_ResNet50_CBAM_id s2] ep 2/10 train 0.875/0.854 val 0.736/0.914 315s (pauza 142s) GPU 81, 54.44 W
+[main M2b_ResNet50_CBAM_id s2] ep 3/10 train 0.759/0.903 val 0.702/0.923 470s (pauza 223s) GPU 80, 60.69 W
+[main M2b_ResNet50_CBAM_id s2] ep 4/10 train 0.712/0.923 val 0.677/0.933 632s (pauza 295s) GPU 80, 60.37 W
+[main M2b_ResNet50_CBAM_id s2] ep 5/10 train 0.685/0.933 val 0.671/0.938 789s (pauza 366s) GPU 80, 58.73 W
+[main M2b_ResNet50_CBAM_id s2] ep 6/10 train 0.654/0.945 val 0.661/0.943 941s (pauza 437s) GPU 81, 59.08 W
+[main M2b_ResNet50_CBAM_id s2] ep 7/10 train 0.640/0.951 val 0.663/0.945 1089s (pauza 499s) GPU 82, 57.39 W
+[main M2b_ResNet50_CBAM_id s2] ep 8/10 train 0.630/0.956 val 0.655/0.942 1238s (pauza 575s) GPU 81, 82.88 W
+[main M2b_ResNet50_CBAM_id s2] ep 9/10 train 0.629/0.956 val 0.652/0.949 1387s (pauza 646s) GPU 80, 60.23 W
+[main M2b_ResNet50_CBAM_id s2] ep 10/10 train 0.626/0.959 val 0.651/0.946 1536s (pauza 717s) GPU 81, 73.34 W
+TEST acc 0.9396 (best val 0.9486 @ ep 9)
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[main M2b_ResNet50_CBAM_id s3] ep 1/10 train 1.718/0.525 val 0.940/0.850 154s (pauza 66s) GPU 81, 59.49 W
+[main M2b_ResNet50_CBAM_id s3] ep 2/10 train 0.877/0.850 val 0.725/0.911 309s (pauza 137s) GPU 83, 60.13 W
+[main M2b_ResNet50_CBAM_id s3] ep 3/10 train 0.763/0.897 val 0.688/0.929 464s (pauza 218s) GPU 81, 60.04 W
+[main M2b_ResNet50_CBAM_id s3] ep 4/10 train 0.715/0.919 val 0.674/0.936 609s (pauza 285s) GPU 83, 61.26 W
+[main M2b_ResNet50_CBAM_id s3] ep 5/10 train 0.678/0.936 val 0.668/0.935 759s (pauza 361s) GPU 83, 80.75 W
+[main M2b_ResNet50_CBAM_id s3] ep 6/10 train 0.657/0.941 val 0.656/0.938 915s (pauza 442s) GPU 83, 61.21 W
+[main M2b_ResNet50_CBAM_id s3] ep 7/10 train 0.639/0.950 val 0.653/0.941 1068s (pauza 518s) GPU 78, 47.15 W
+[main M2b_ResNet50_CBAM_id s3] ep 8/10 train 0.629/0.958 val 0.650/0.938 1223s (pauza 589s) GPU 83, 72.49 W
+[main M2b_ResNet50_CBAM_id s3] ep 9/10 train 0.619/0.959 val 0.647/0.941 1370s (pauza 660s) GPU 83, 69.97 W
+[main M2b_ResNet50_CBAM_id s3] ep 10/10 train 0.613/0.964 val 0.652/0.938 1521s (pauza 731s) GPU 83, 75.52 W
+TEST acc 0.9405 (best val 0.9413 @ ep 7)
+EXTRA HOTOVÉ
