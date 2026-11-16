@@ -4,3 +4,6 @@ cache/
 venv/
 runs/
 runs_old/
+*.pt
+*.cache
+*.zip
